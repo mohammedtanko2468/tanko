@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <STYle>
+        header nav{
+        display: flex;
+        justify-content: space-between;;
+        align-items: center;
+        background-color: gold;
+        }
+        .top-nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 40px;
+        }
+        header nav>ul>li{
+            list-style: none;
+            display: inline-block;
+            padding: 10PX;
+        }
+        .logo{
+            width: 200px;
+            transition: all 2s ease-in-out;
+        }
+
+        .logo:hover{
+            transform: rotateY(180deg);
+        }
+        .hero-img{
+            background-image: url(./image/1.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: top center ;
+            background-attachment: fixed;
+            margin: 40px 40px 40px;
+            border-radius: 30px;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+        .hero-content{
+            height: 100%;
+            width: 100%;
+            background-color: rgba(17, 0, 0, 0.5);
+            padding: 100px 40px;
+            border-radius: 30px;
+            color: #fff;
+            justify-content: center;
+        }
+        .card{
+            box-shadow: 0 4px 8px 0  rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            width: 20%;
+            border-radius: 5px;
+            margin: 30px;   
+            margin-bottom: 30px;
+            display: inline-block;
+        }
+        .card:hover{
+            box-shadow: 0 8px 16px 0;
+        }
+        .container{padding: 2px 16px;}
+        button{
+            margin-top: 20px;
+            margin-bottom: 5px;
+            width: 100%;
+            padding: 9px 0;
+            outline: none;
+            border: 2PX solid #8e44ad;
+            border-radius: 5px;
+            font-weight: 400;
+            transition: all 0.3s linear;
+            color: #8e44ad;
+        }
+        button:hover{
+            background-color: #8e44ad;
+            color: #fff;
+        }
+    </STYle>
+
+</head>
+<body>
+    <header>
+        <div class="top-nav">
+            <a href="logo"><img src="./image/1.png" alt="" class="logo"></a>
+            <form action="" method="post">
+                <div class=""><input type="search" placeholder="Search..." name="" id="" ><button type="submit">Search</button></div>
+            </form>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="">HELP</a></li>
+                <li><a href="">ADMISSION</a></li>
+            </ul>
+        </nav>
+        <div class="hero-img">
+            <div class="hero-content">
+              <h1>ELITE <sup style="color: brown;">academy</sup></h1>
+            </div>
+        </div>
+    </header>
+    <div class="card">
+        <img src="./image/1.png" alt="" style="width: 100%; border-radius:  20px 20px 10px 10px;">
+        <div class="container">
+           <h2>RECORDS</h2>
+           <p></p>
+           <button>READ MORE</button>
+        </div>
+        </div>
+    <div class="card">
+        <img src="./image/is-online-learning-beneficial-for-kids.webp" alt="" style="width: 100%; border-radius:  20px 20px 10px 10px;">
+        <div class="container">
+           <h2> GALLARY</h2>
+           <p></p>
+           <a href="gallary.html"><button>VIEW</button></a>
+        </div>
+        </div>
+       
+    
+</body>
+</html>
